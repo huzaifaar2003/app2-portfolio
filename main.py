@@ -12,5 +12,6 @@ with col2:
     # """...""" for multiline (dynamically and automatically sizing) string.
     st.info(content)
 
-st.write("<i>Here are some of my Python projects. Feel free to view them below!</i>",
+content2 = """<i><h3>Here are some of my Python projects. Feel free to view them below!</h3></i>"""
+st.write(content2,
          unsafe_allow_html=True)
