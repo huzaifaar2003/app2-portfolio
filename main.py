@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import time
-import webbrowser
 
 
 col1, col2 = st.columns([1.5,2]) #rezised columns
