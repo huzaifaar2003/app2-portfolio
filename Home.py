@@ -34,7 +34,7 @@ with col3:
         st.write(f"[Source Code]({row["url"]})")
         #st.write(f"[Text to be displayed](link to be embedded)")
         st.image(f"images/{row["image"]}")
-        st.write("___", font = "Helvetica")
+        st.write("___")
         #"___" (and any more underscores "_") makes a horizontal line across the column
 
 
